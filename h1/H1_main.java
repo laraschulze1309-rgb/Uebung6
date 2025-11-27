@@ -14,12 +14,15 @@ public class H1_main {
         return true;
     }
 
+
+    //meine eigenen Testfälle
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5, 6};
         int[] b = {6, 5, 4, 3, 2, 1};
 
         boolean result = isMirrorArray(a, b);
 
-        System.out.println("Spiegelbildlich:" + result);
-    }
+        System.out.println("Spiegelbildlich: " + result);
+}
+
 }
