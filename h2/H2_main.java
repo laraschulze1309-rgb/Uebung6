@@ -16,15 +16,21 @@ public class H2_main {
 
 
 //Meine eigenen Testfälle
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         int[] a = {1, 2, 3};
         int[] b = {1, 2, 4};
-        int[] c = {1, 2, 3};
+        int[] c = {1, 3, 2};
+                       
 
-        System.out.println(compareArrays(a, b));
+
+      
         System.out.println(compareArrays(a, a));
+        System.out.println(compareArrays(c, c));
+        System.out.println(compareArrays(b, b));
+
+        System.out.println(compareArrays(a, b)); 
         System.out.println(compareArrays(a, c));
-        System.out.println(compareArrays(b, c));
+        System.out.println(compareArrays(b, c)); 
   
     }
 }
