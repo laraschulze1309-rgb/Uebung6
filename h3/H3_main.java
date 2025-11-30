@@ -26,6 +26,8 @@ public class H3_main {
 
 }
 
+
+//meine eigenen Testfälle
 public static void main(String[] args) {
         int[] a = {1, 2, 3};
         int[] b = {1, 2, 4};
@@ -34,13 +36,13 @@ public static void main(String[] args) {
         int[] e = {1, 2, 3};
         int[] f = {1, 1, 2};
 
-        System.out.println(compareArraysVal(a, c)); // true
-        System.out.println(compareArraysVal(a, e)); // true
-        System.out.println(compareArraysVal(c, e)); // true
+        System.out.println(compareArraysVal(a, c));
+        System.out.println(compareArraysVal(a, e));
+        System.out.println(compareArraysVal(c, e));
 
-        System.out.println(compareArraysVal(a, b)); // false
-        System.out.println(compareArraysVal(a, d)); // false
-        System.out.println(compareArraysVal(a, f)); // false
+        System.out.println(compareArraysVal(a, b)); 
+        System.out.println(compareArraysVal(a, d));
+        System.out.println(compareArraysVal(a, f)); 
 }
 
 }
